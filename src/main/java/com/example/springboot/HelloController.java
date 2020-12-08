@@ -11,4 +11,9 @@ public class HelloController {
 		return "Greetings from Spring Boot!";
 	}
 
+	@RequestMapping("/crisp")
+	public String crisp() {
+		return "Greetings from CRISP";
+	}
+
 }
